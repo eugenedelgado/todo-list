@@ -8,9 +8,9 @@ export default function App() {
 		<>
 			<div className="app-main">
 				<Routes>
-					<Route path="/home" element={<Home />} />
-					<Route path="/todolist" element={<TodoList />} />
-					<Route path="/" element={<Home />} />
+					<Route path="todo-list/home" element={<Home />} />
+					<Route path="todo-list/todolist" element={<TodoList />} />
+					<Route path="todo-list/" element={<Home />} />
 				</Routes>
 			</div>
 		</>
