@@ -5,7 +5,7 @@ export default function Home() {
 	let navigate = useNavigate()
 
 	function handleOnClick() {
-		navigate('/todolist')
+		navigate('/todo-list-app/todolist')
 	}
 	return (
 		<>
