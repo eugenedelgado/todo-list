@@ -1,0 +1,64 @@
+.todolist-main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	background-color: rgba(32, 32, 32, 0.397);
+	box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.605);
+	border-radius: 20px;
+	padding: 20px;
+	h1 {
+		font-size: 50px;
+		font-weight: bold;
+		background: -webkit-linear-gradient(
+			36deg,
+			rgba(0, 76, 255, 1) 0%,
+			rgba(255, 0, 136, 1) 37%,
+			rgba(255, 0, 94, 1) 63%,
+			rgba(255, 0, 0, 1) 100%
+		);
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.form-container {
+		display: grid;
+		grid-template-columns: auto 100px;
+		margin: 5px;
+		gap: 5px;
+	}
+
+	.form-edit-container {
+		display: grid;
+		grid-auto-flow: column;
+		margin: 5px;
+		gap: 5px;
+	}
+
+	.list-container {
+		display: flex;
+		flex-direction: column;
+		margin: 5px;
+		background-color: rgba(57, 57, 57, 0.267);
+		border: 1px solid rgba(255, 255, 255, 0.692);
+		border-radius: 2px;
+		box-shadow: 0px 0px 5px rgba(255, 255, 255, 0.352);
+		span {
+			color: white;
+		}
+	}
+
+	.list-row {
+		display: grid;
+		grid-template-columns: auto 100px 100px;
+		gap: 5px;
+		padding: 5px;
+		border: 1px solid rgba(41, 41, 41, 0.516);
+
+		span {
+			text-align: start;
+			overflow: auto;
+			color: white;
+		}
+	}
+}

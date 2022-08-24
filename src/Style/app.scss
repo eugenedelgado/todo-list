@@ -1,0 +1,24 @@
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+* {
+	font-family: raleway, sans-serif;
+}
+
+.app-main {
+	height: 100vh;
+	display: grid;
+	grid-area: center;
+	grid-template-columns: auto auto auto;
+	justify-content: center;
+	align-items: center;
+	background-color: black;
+	overflow: auto;
+
+	@import 'home.scss';
+	@import 'todolist.scss';
+}
